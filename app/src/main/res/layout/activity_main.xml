@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.linuxpara.agles20tutorials.MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_triangle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="三角形绘制"/>
+
+        <Button
+            android:id="@+id/btn_cube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="立方体绘制"
+            app:layout_constraintTop_toBottomOf="@id/btn_triangle"/>
+
+        <Button
+            android:id="@+id/btn_globe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="地球仪绘制"
+            app:layout_constraintTop_toBottomOf="@id/btn_cube"/>
+
+        <Button
+            android:id="@+id/btn_pyramid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="金字塔绘制"
+            app:layout_constraintTop_toBottomOf="@id/btn_globe"/>
+
+        <Button
+            android:id="@+id/btn_picture_effect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="图片效果"
+            app:layout_constraintTop_toBottomOf="@id/btn_pyramid"/>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
