@@ -6,7 +6,7 @@ Android平台下OpenGL ES 2.0教程代码。
 
 author：陈占洋
 
-email：zhanyang.chen.gmail.com
+email：<zhanyang.chen@gmail.com>
 
 内容禁止用于商业用途，侵权必究。
 
