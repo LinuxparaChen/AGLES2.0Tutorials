@@ -9,4 +9,5 @@ author：陈占洋
 email：zhanyang.chen.gmail.com
 
 内容禁止用于商业用途，侵权必究。
+
 [License](https://github.com/LinuxparaChen/AGLES2.0Tutorials/blob/master/LICENSE)
