@@ -11,3 +11,7 @@ email：<zhanyang.chen@gmail.com>
 内容禁止用于商业用途，侵权必究。
 
 [License](https://github.com/LinuxparaChen/AGLES2.0Tutorials/blob/master/LICENSE)
+
+案列效果：
+1. 三角形绘制
+![三角形绘制效果](effect/三角形绘制效果.png)
