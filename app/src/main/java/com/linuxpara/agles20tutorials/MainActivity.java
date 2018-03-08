@@ -1,13 +1,24 @@
 package com.linuxpara.agles20tutorials;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+import com.linuxpara.agles20tutorials.triangle.TriangleActivity;
+
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-
+/**
+ * Date: 2018/3/6
+ * *************************************************************
+ * Auther: 陈占洋
+ * *************************************************************
+ * Email: zhanyang.chen@gmail.com
+ * *************************************************************
+ * Description: 主界面Activity
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -24,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()){
             //三角形
             case R.id.btn_triangle:
-                Toast.makeText(this, "三角形",Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, TriangleActivity.class));
                 break;
             //立方体
             case R.id.btn_cube:
