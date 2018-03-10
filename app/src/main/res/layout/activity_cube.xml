@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.linuxpara.agles20tutorials.cube.CubeActivity">
+
+    <android.opengl.GLSurfaceView
+    android:id="@+id/cube_gl_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/cube_x_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绕X轴旋转(上下滑动)" />
+
+    <Button
+        android:id="@+id/cube_y_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绕Y轴旋转(左右滑动)"
+        app:layout_constraintTop_toBottomOf="@id/cube_x_rotate"/>
+
+</android.support.constraint.ConstraintLayout>

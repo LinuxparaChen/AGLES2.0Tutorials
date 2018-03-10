@@ -122,7 +122,7 @@ public class TriangleRender extends GraphicalRender {
     }
 
     @Override
-    public void initVert() {
+    protected void initVert() {
         float[] verts = {
                 mWidth / 2, 0.0f, 0.0f,//第一个顶点的xyz坐标
                 0.0f, mHeight, 0.0f,//第二个顶点的xyz坐标
@@ -134,7 +134,7 @@ public class TriangleRender extends GraphicalRender {
     }
 
     @Override
-    public void initVertColor() {
+    protected void initVertColor() {
         float[] vertColor = {
                 1.0f, 0.0f, 0.0f, 0.0f,//第一个顶点的rgba颜色值
                 0.0f, 1.0f, 0.0f, 0.0f,//第二个顶点的rgba颜色值

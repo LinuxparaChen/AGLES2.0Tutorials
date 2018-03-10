@@ -99,21 +99,28 @@ public abstract class GraphicalRender implements GLSurfaceView.Renderer{
     /**
      * 初始化顶点缓存
      */
-    public void initVert() {
+    protected void initVert() {
+
+    }
+
+    /**
+     * 初始化顶点索引
+     */
+    protected void initVertIdx(){
 
     }
 
     /**
      * 初始化顶点颜色缓存
      */
-    public void initVertColor() {
+    protected void initVertColor() {
 
     }
 
     /**
      * 初始化纹理坐标
      */
-    public void initTextureCoord() {
+    protected void initTextureCoord() {
 
     }
 

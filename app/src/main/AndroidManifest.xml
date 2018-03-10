@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".triangle.TriangleActivity"></activity>
+        <activity android:name=".triangle.TriangleActivity" />
+        <activity android:name=".cube.CubeActivity"></activity>
     </application>
 
 </manifest>

@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+import com.linuxpara.agles20tutorials.cube.CubeActivity;
 import com.linuxpara.agles20tutorials.triangle.TriangleActivity;
 
 import butterknife.ButterKnife;
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             //立方体
             case R.id.btn_cube:
-                Toast.makeText(this, "立方体",Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, CubeActivity.class));
                 break;
             //地球仪
             case R.id.btn_globe:
