@@ -16,3 +16,7 @@ email：<zhanyang.chen@gmail.com>
 1. 三角形绘制
 
 ![三角形绘制效果](effect/三角形绘制效果.png)
+
+2. 立方体绘制效果
+
+<video src="effect/立方体绘制效果.mp4" width=320 height=480></video>
