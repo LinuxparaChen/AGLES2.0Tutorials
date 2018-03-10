@@ -13,6 +13,7 @@ import com.linuxpara.agles20tutorials.util.ShaderUtils;
 
 import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
+import java.nio.IntBuffer;
 
 /**
  * Date: 2018/3/9
