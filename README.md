@@ -19,4 +19,4 @@ email：<zhanyang.chen@gmail.com>
 
 2. 立方体绘制效果
 
-![立方体绘制效果](effect/立方体绘制效果.mp4)
+![立方体绘制效果](effect/立方体效果.gif)
