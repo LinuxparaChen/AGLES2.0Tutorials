@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".triangle.TriangleActivity" />
-        <activity android:name=".cube.CubeActivity"></activity>
+        <activity android:name=".cube.CubeActivity" />
+        <activity android:name=".earth.EarthActivity"></activity>
     </application>
 
 </manifest>

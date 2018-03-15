@@ -20,3 +20,7 @@ email：<zhanyang.chen@gmail.com>
 2. 立方体绘制效果
 
 ![立方体绘制效果](effect/立方体效果.gif)
+
+3. 地球绘制效果
+
+![地球绘制效果](effect/地球绘制效果.gif)

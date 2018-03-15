@@ -24,10 +24,10 @@
             app:layout_constraintTop_toBottomOf="@id/btn_triangle"/>
 
         <Button
-            android:id="@+id/btn_globe"
+            android:id="@+id/btn_earth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="地球仪绘制"
+            android:text="地球绘制"
             app:layout_constraintTop_toBottomOf="@id/btn_cube"/>
 
         <Button
@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="金字塔绘制"
-            app:layout_constraintTop_toBottomOf="@id/btn_globe"/>
+            app:layout_constraintTop_toBottomOf="@id/btn_earth"/>
 
         <Button
             android:id="@+id/btn_picture_effect"

@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.linuxpara.agles20tutorials.cube.CubeActivity;
+import com.linuxpara.agles20tutorials.earth.EarthActivity;
 import com.linuxpara.agles20tutorials.triangle.TriangleActivity;
 
 import butterknife.ButterKnife;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @OnClick({R.id.btn_triangle,R.id.btn_cube,
-            R.id.btn_globe,R.id.btn_pyramid,
+            R.id.btn_earth,R.id.btn_pyramid,
             R.id.btn_picture_effect})
     public void onBtnClick(View view){
         switch (view.getId()){
@@ -43,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, CubeActivity.class));
                 break;
             //地球仪
-            case R.id.btn_globe:
-                Toast.makeText(this, "地球仪",Toast.LENGTH_SHORT).show();
+            case R.id.btn_earth:
+                startActivity(new Intent(this, EarthActivity.class));
                 break;
             //金字塔
             case R.id.btn_pyramid:
