@@ -10,8 +10,6 @@ email：<zhanyang.chen@gmail.com>
 
 内容禁止用于商业用途，侵权必究。
 
-[License](https://github.com/LinuxparaChen/AGLES2.0Tutorials/blob/master/LICENSE)
-
 案列效果：
 1. 三角形绘制
 
@@ -24,3 +22,21 @@ email：<zhanyang.chen@gmail.com>
 3. 地球绘制效果
 
 ![地球绘制效果](effect/地球绘制效果.gif)
+
+5. 摄像头预览效果
+
+[License](https://github.com/LinuxparaChen/AGLES2.0Tutorials/blob/master/LICENSE)
+
+<center>Apache License</center>
+<center>Version 2.0, January 2004</center>
+<center>http://www.apache.org/licenses/</center>
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.

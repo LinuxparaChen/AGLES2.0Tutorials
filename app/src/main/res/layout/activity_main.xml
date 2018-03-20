@@ -38,10 +38,10 @@
             app:layout_constraintTop_toBottomOf="@id/btn_earth"/>
 
         <Button
-            android:id="@+id/btn_picture_effect"
+            android:id="@+id/btn_camera_effect"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="图片效果"
+            android:text="摄像头预览效果"
             app:layout_constraintTop_toBottomOf="@id/btn_pyramid"/>
 
     </android.support.constraint.ConstraintLayout>

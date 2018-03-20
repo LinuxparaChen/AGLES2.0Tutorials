@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick({R.id.btn_triangle,R.id.btn_cube,
             R.id.btn_earth,R.id.btn_pyramid,
-            R.id.btn_picture_effect})
+            R.id.btn_camera_effect})
     public void onBtnClick(View view){
         switch (view.getId()){
             //三角形
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "金字塔",Toast.LENGTH_SHORT).show();
                 break;
             //图片效果
-            case R.id.btn_picture_effect:
+            case R.id.btn_camera_effect:
                 startActivity(new Intent(this,CameraActivity.class));
                 break;
         }
