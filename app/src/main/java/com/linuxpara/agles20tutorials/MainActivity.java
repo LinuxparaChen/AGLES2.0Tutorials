@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+import com.linuxpara.agles20tutorials.camera.CameraActivity;
 import com.linuxpara.agles20tutorials.cube.CubeActivity;
 import com.linuxpara.agles20tutorials.earth.EarthActivity;
 import com.linuxpara.agles20tutorials.triangle.TriangleActivity;
@@ -43,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_cube:
                 startActivity(new Intent(this, CubeActivity.class));
                 break;
-            //地球仪
+            //地球
             case R.id.btn_earth:
                 startActivity(new Intent(this, EarthActivity.class));
                 break;
@@ -53,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             //图片效果
             case R.id.btn_picture_effect:
-                Toast.makeText(this, "图片效果",Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this,CameraActivity.class));
                 break;
         }
     }

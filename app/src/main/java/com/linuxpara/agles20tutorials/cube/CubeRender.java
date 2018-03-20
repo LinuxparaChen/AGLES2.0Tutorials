@@ -90,6 +90,7 @@ class CubeRender extends GraphicalRender {
         //根据将资源图片转成纹理
         Bitmap bitmap = BitmapFactory.decodeResource(getView().getResources(), R.mipmap.box);
         mTextureId = genBitmapTextureId(bitmap);
+        bitmap.recycle();
         //初始化纹理坐标
         initTextureCoord();
         //初始化着色器程序

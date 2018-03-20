@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CameraView">
+        <attr name="camera_id" format="enum">
+            <enum name="back_camera_id" value="0"/>
+            <enum name="front_camera_id" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

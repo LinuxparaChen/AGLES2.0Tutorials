@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.linuxpara.agles20tutorials">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +20,8 @@
         </activity>
         <activity android:name=".triangle.TriangleActivity" />
         <activity android:name=".cube.CubeActivity" />
-        <activity android:name=".earth.EarthActivity"></activity>
+        <activity android:name=".earth.EarthActivity" />
+        <activity android:name=".camera.CameraActivity"></activity>
     </application>
 
 </manifest>
