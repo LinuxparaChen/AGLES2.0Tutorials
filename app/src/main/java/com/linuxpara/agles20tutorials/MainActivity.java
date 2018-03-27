@@ -3,6 +3,7 @@ package com.linuxpara.agles20tutorials;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -10,6 +11,9 @@ import com.linuxpara.agles20tutorials.camera.CameraActivity;
 import com.linuxpara.agles20tutorials.cube.CubeActivity;
 import com.linuxpara.agles20tutorials.earth.EarthActivity;
 import com.linuxpara.agles20tutorials.triangle.TriangleActivity;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
